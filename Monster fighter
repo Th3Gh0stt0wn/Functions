@@ -1,0 +1,18 @@
+import random
+
+#function deff
+def MonsterGen():
+    num = random.randrange(0,100)
+    if num < 5:
+        print("A Djinn apears in a puff of smoke!")
+    elif num < 30:
+        print("A Spider crawls up behind you!")
+    elif num > 85:
+       print("A Skeleton shows up!")
+    else:
+        print("Nothing shows up")
+#End of function
+        
+while True:
+    MonsterGen()
+    choice = input("Enter any key to continue..")
