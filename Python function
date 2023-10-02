@@ -1,0 +1,11 @@
+def AddThreeNums(x, y, z):
+    print(x, "+", y, "+", z, "is", x+y+z)
+    
+AddThreeNums(120,70,130)
+import random
+
+def AddThreeNums(x, y, z):
+    print(x, "*", y, "/", z, "is", x*y/z)
+    
+AddThreeNums(4,1024,2)
+import random
